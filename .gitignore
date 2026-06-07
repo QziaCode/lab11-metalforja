@@ -1,0 +1,25 @@
+# Chaves privadas - NUNCA commitar
+*.pem
+*.key
+*.ppk
+id_rsa
+id_rsa.pub
+
+# Secrets / variaveis de ambiente
+.env
+.env.local
+secrets/
+
+# Sistema operacional
+Thumbs.db
+Desktop.ini
+.DS_Store
+
+# Editores
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Logs
+*.log
